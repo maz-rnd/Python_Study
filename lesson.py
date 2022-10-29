@@ -37,8 +37,9 @@
 
 # Задача №3
 # a = int(input())
-# for i in range(-a, a+1):
+# for i in range(-a, a):
 #     print(i, end=', ')
+# print(a)
 # ///////////////////////////////////////
 # num = input()
 # if '.' not in num:
@@ -46,6 +47,19 @@
 # else:
 #     n = (float(num) * 10) % 10
 #     print(int(n))
+# ////////////////////////////////////////
+# num = input()
+# if '.' in num:
+#     index_p = num.find('.')
+#     print(num[index_p + 1])
+# else:
+#     print('NO')
+
 # *********************************************************
 
 # Задача№4
+# n = int(input())
+# if (n % 5 == 0 and n % 10 == 0 or n % 15 == 0) and n % 30 != 0:
+#     print('YES')
+# else:
+#     print('NO')
