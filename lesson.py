@@ -1,3 +1,5 @@
+#lesson 1#
+##############
 # Задача №1
 # a = int(input('Enter first number: '))
 # b = int(input('Enter second number: '))
@@ -63,3 +65,27 @@
 #     print('YES')
 # else:
 #     print('NO')
+
+#lesson 2#
+# n = int(input())
+# a = []
+# for i in range(n):
+#     a.append((-3) ** i)
+# print(*a, sep=', ')
+##########
+# n = int(input('Enter number: '))
+# arr = []
+# for i in range(1, n + 1):
+#     arr.append(3 * i + 1)
+# print(arr)
+# ///////////////////////////////////////
+# n = int(input())
+# print('{', end='')
+# for i in range(n + 1):
+#     print(f'{i}:{3 * i + 1}', end=', ')
+# print(f'{n}:{3*n+1}', end='}')
+# //////////////////////////////////////
+# s1 = input('Enter string 1: ')
+# s2 = input('Enter string 2: ')
+# print(s1.count(s2) or s2.count(s1))
+# ///////////////////////////////////////
