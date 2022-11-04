@@ -89,3 +89,33 @@
 # s2 = input('Enter string 2: ')
 # print(s1.count(s2) or s2.count(s1))
 # ///////////////////////////////////////
+# colors = ['red', 'green', 'yellow']
+# data = open('some_file.txt', 'a')
+# data.writelines(colors)
+# data.close()
+
+
+# with open('file.txt', 'w') as data:
+#     data.write('line 1\n')
+#     data.write('line 2\n')
+
+# path = 'file.txt'
+# data = open(path, 'r')
+# for line in data:
+#     print(line)
+# data.close()
+# with open('some_file.txt', 'r') as data:
+#     for line in data:
+#         print(line)
+
+# def some_string(sym, count):
+#     return (sym*count)
+
+
+# print(some_string('!', 5))
+# a = (3, 4)
+# print(a)
+# print(a[0])
+c = {1, 2, 3, 4, 5, 6}
+d = c.copy()
+print(d)
