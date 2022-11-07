@@ -116,6 +116,46 @@
 # a = (3, 4)
 # print(a)
 # print(a[0])
-c = {1, 2, 3, 4, 5, 6}
-d = c.copy()
-print(d)
+# c = {1, 2, 3, 4, 5, 6}
+# d = c.copy()
+# print(d)
+
+# num = input()
+# sum = 0
+# for s in num:
+#     if s.isdigit():
+#         sum += int(s)
+# print(sum)
+#from random import random
+# import random
+
+# n = int(input('Enter number of list : '))
+# ls = []
+# for _ in range(n):
+#     num = int(input())
+#     ls.append(num)
+# print(ls)
+# random.shuffle(ls)
+# print(ls)
+# import time
+# print(time.time())
+# a = []
+# n = int(input())
+# for i in range(n):
+#     a.append(input())
+# f_num = input()
+# if f_num in a:
+#     print('YES')
+# else:
+#     print('NO')
+
+num = int(input('Enter amount of list : '))
+ls = []
+sum = 0
+for _ in range(num):
+    el = int(input())
+    ls.append(el)
+for i in range(1, num, 2):
+    sum += ls[i]
+print(ls)
+print(sum)
