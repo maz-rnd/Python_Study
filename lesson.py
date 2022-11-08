@@ -149,13 +149,37 @@
 # else:
 #     print('NO')
 
-num = int(input('Enter amount of list : '))
-ls = []
-sum = 0
-for _ in range(num):
-    el = int(input())
-    ls.append(el)
-for i in range(1, num, 2):
-    sum += ls[i]
-print(ls)
-print(sum)
+# num = int(input('Enter amount of list : '))
+# ls = []
+# sum = 0
+# for _ in range(num):
+#     el = int(input())
+#     ls.append(el)
+# for i in range(1, num, 2):
+#     sum += ls[i]
+# print(ls)
+# print(sum)
+
+# *************************************************************
+
+# a = list(map(int, input().split()))
+# print(max(a), min(a))
+
+# def num_translate(key, dictionary):
+#     print(dictionary[key])
+
+
+# d = {'one': 'один', 'two': 'два'}
+# word = input('Write a word :')
+# num_translate(word, d)
+
+some_str = input()
+some_str = some_str.split()
+maxx = int(some_str[0])
+minn = int(some_str[0])
+for i in some_str:
+    if int(i) > maxx:
+        maxx = int(i)
+    elif int(i) < minn:
+        minn = int(i)
+print(minn, maxx)
