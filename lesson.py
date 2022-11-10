@@ -173,13 +173,84 @@
 # word = input('Write a word :')
 # num_translate(word, d)
 
-some_str = input()
-some_str = some_str.split()
-maxx = int(some_str[0])
-minn = int(some_str[0])
-for i in some_str:
-    if int(i) > maxx:
-        maxx = int(i)
-    elif int(i) < minn:
-        minn = int(i)
-print(minn, maxx)
+# some_str = input()
+# some_str = some_str.split()
+# maxx = int(some_str[0])
+# minn = int(some_str[0])
+# for i in some_str:
+#     if int(i) > maxx:
+#         maxx = int(i)
+#     elif int(i) < minn:
+#         minn = int(i)
+# print(minn, maxx)
+
+
+# def mult(x, y):
+#     return x*y
+
+
+# def calc(op, a, b):
+#     print(op(a, b))
+
+
+# calc(lambda x, y: x+y+2, 4, 5)
+
+# list = []
+# for i in range(1, 101):
+#     if (i % 2 == 0):
+#         list.append(i)
+# print(list)
+# def f(x):
+#     return x**3
+
+
+# list = [(i, f(i)) for i in range(1, 21) if i % 2 == 0]
+# print(list)
+# 1 2 3 5 8 15 23 38
+
+# path = 'file.txt'
+# f = open(path, 'r')
+# data = f.read() + ' '
+# f.close()
+
+# num = []
+
+# while data != '':
+#     space_pos = data.index(' ')
+#     num.append(int(data[:space_pos]))
+#     data = data[space_pos + 1:]
+
+# data = list(map(int, input().split()))
+# print(data)
+
+# data = [x for x in range(10)]
+# res = list(filter(lambda x: x % 2 == 0, data))
+# print(res)
+# ==========================================================
+# with open('Text.txt', 'r', encoding='utf-8') as data:
+#     f = data.read().split(' ')
+# for i in range(len(f) - 1):
+#     if int(f[i]) + 1 != int(f[i + 1]):
+#         print(int(f[i]) + 1)
+# ==========================================================
+# n = 8
+# with open('Text.txt', 'r', encoding='utf-8') as k:
+#     some_list = list(map(int, k.read().split()))
+#     for i in range(n - 1):
+#         if some_list[i] != some_list[i + 1] - 1:
+#             print(some_list[i + 1] - 1)
+
+# ==========================================================
+# text = input()
+# text = text.split()
+# new_text = ''
+# for i in text:
+#     if 'abc' not in i:
+#         new_text += i + ' '
+# print(new_text)
+
+
+# text = input()
+# text = text.split()
+# new_text = filter(lambda x: 'abc' not in x, text)
+# print(new_text)
