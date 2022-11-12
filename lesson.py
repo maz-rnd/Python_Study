@@ -254,3 +254,6 @@
 # text = text.split()
 # new_text = filter(lambda x: 'abc' not in x, text)
 # print(new_text)
+# ============================================================
+
+# урок №6
